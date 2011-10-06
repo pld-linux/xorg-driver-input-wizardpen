@@ -2,12 +2,12 @@
 Summary:	X.org input driver for most non-Wacom graphics pads
 Summary(pl.UTF-8):	Sterownik wejściowy X.org do większości tabletów nie-Wacoma
 Name:		xorg-driver-input-wizardpen
-Version:	0.8.0
-Release:	2
+Version:	0.8.1
+Release:	0.1
 License:	GPL v2
 Group:		X11/Applications
-Source0:	http://launchpad.net/wizardpen/trunk/0.8/+download/%{relname}-%{version}.tar.gz
-# Source0-md5:	af818b824b1b808c851279ec604a1ac6
+Source0:	http://launchpad.net/wizardpen/trunk/0.8/+download/%{relname}-%{version}.tar.bz2
+# Source0-md5:	950f73ccf8ae5e1027eda4c030e15c6f
 URL:		https://launchpad.net/wizardpen
 BuildRequires:	autoconf
 BuildRequires:	automake
