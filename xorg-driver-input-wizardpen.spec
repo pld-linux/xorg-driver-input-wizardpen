@@ -66,10 +66,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc COPYING ChangeLog README
+%doc COPYING README
 %attr(755,root,root) %{_bindir}/wizardpen-calibrate
 %attr(755,root,root) %{_libdir}/xorg/modules/input/wizardpen_drv.so
-%{_sysconfdir}/udev/rules.d/70-xorg-wizardpen-settings.rules
-/lib/udev/rules.d/67-xorg-wizardpen.rules
+%{_sysconfdir}/udev/rules.d/67-xorg-wizardpen.rules
 %{_mandir}/man4/wizardpen.4*
 %{_datadir}/X11/xorg.conf.d/*
